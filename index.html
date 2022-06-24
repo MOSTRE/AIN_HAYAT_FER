@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AIN HAYAT FER</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #751581;">
+    <table>
+        <tr>
+            <td>
+                <!--HTML form for crud operation-->
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="fullName">Nom de l'article</label>
+                        <input type="text" name="fullName" id="fullName" >
+                    </div>
+                    <div>
+                        <label for="empCode">prix de vente</label>
+                        <input type="text" name="empCode" id="empCode" >
+                    </div>
+                    <div>
+                        <label for="salary">prix d'achat</label>
+                        <input type="text" name="salary" id="salary">
+                    </div>
+                    <div>
+                        <label for="city">Lester</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div class="form_action--button">
+                        <input type="Submit" value="saisir">
+                        <input type="reset" value="suppression">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Nom de l'article</th>
+                            <th>prix de vente</th>
+                            <th>prix d'achat</th>
+                            <th>Lester</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
